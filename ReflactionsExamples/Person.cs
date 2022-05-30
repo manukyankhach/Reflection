@@ -26,5 +26,10 @@ namespace ReflactionsExamples
             Console.WriteLine("Person Drink");
         }
         //public Person(string name, int age) => Name = name;
+
+        public void Print ()
+        {
+            Console.WriteLine("Print Person");
+        }
     }
 }
